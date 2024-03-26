@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A26D65542BB29F3D00981EC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D65532BB29F3D00981EC8 /* AppDelegate.swift */; };
+		A26D65562BB29F3D00981EC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D65552BB29F3D00981EC8 /* SceneDelegate.swift */; };
+		A26D65592BB29F3D00981EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26D65572BB29F3D00981EC8 /* LaunchScreen.storyboard */; };
+		A26D655C2BB29F3D00981EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26D655A2BB29F3D00981EC8 /* Main.storyboard */; };
+		A26D65652BB29F3D00981EC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D65642BB29F3D00981EC8 /* AppDelegate.swift */; };
+		A26D65682BB29F3D00981EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26D65662BB29F3D00981EC8 /* Main.storyboard */; };
+		A26D656F2BB29F3D00981EC8 /* sweettooth Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A26D656E2BB29F3D00981EC8 /* sweettooth Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A26D65792BB29F3D00981EC8 /* sweettooth Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A26D65782BB29F3D00981EC8 /* sweettooth Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A26D657F2BB29F3D00981EC8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A26D653A2BB29F3C00981EC8 /* Main.html */; };
+		A26D65802BB29F3D00981EC8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A26D653A2BB29F3C00981EC8 /* Main.html */; };
+		A26D65812BB29F3D00981EC8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A26D653C2BB29F3C00981EC8 /* Icon.png */; };
+		A26D65822BB29F3D00981EC8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A26D653C2BB29F3C00981EC8 /* Icon.png */; };
+		A26D65832BB29F3D00981EC8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A26D653D2BB29F3C00981EC8 /* Style.css */; };
+		A26D65842BB29F3D00981EC8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A26D653D2BB29F3C00981EC8 /* Style.css */; };
+		A26D65852BB29F3D00981EC8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A26D653E2BB29F3C00981EC8 /* Script.js */; };
+		A26D65862BB29F3D00981EC8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A26D653E2BB29F3C00981EC8 /* Script.js */; };
+		A26D65872BB29F3D00981EC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D653F2BB29F3C00981EC8 /* ViewController.swift */; };
+		A26D65882BB29F3D00981EC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D653F2BB29F3C00981EC8 /* ViewController.swift */; };
+		A26D65892BB29F3D00981EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26D65402BB29F3D00981EC8 /* Assets.xcassets */; };
+		A26D658A2BB29F3D00981EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26D65402BB29F3D00981EC8 /* Assets.xcassets */; };
+		A26D658B2BB29F3D00981EC8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D65422BB29F3D00981EC8 /* SafariWebExtensionHandler.swift */; };
+		A26D658C2BB29F3D00981EC8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26D65422BB29F3D00981EC8 /* SafariWebExtensionHandler.swift */; };
+		A26D658D2BB29F3D00981EC8 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = A26D65442BB29F3D00981EC8 /* _locales */; };
+		A26D658E2BB29F3D00981EC8 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = A26D65442BB29F3D00981EC8 /* _locales */; };
+		A26D658F2BB29F3D00981EC8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = A26D65452BB29F3D00981EC8 /* images */; };
+		A26D65902BB29F3D00981EC8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = A26D65452BB29F3D00981EC8 /* images */; };
+		A26D65912BB29F3D00981EC8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A26D65462BB29F3D00981EC8 /* manifest.json */; };
+		A26D65922BB29F3D00981EC8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A26D65462BB29F3D00981EC8 /* manifest.json */; };
+		A26D65932BB29F3D00981EC8 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A26D65472BB29F3D00981EC8 /* background.js */; };
+		A26D65942BB29F3D00981EC8 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A26D65472BB29F3D00981EC8 /* background.js */; };
+		A26D65952BB29F3D00981EC8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A26D65482BB29F3D00981EC8 /* content.js */; };
+		A26D65962BB29F3D00981EC8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A26D65482BB29F3D00981EC8 /* content.js */; };
+		A26D65972BB29F3D00981EC8 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A26D65492BB29F3D00981EC8 /* popup.html */; };
+		A26D65982BB29F3D00981EC8 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A26D65492BB29F3D00981EC8 /* popup.html */; };
+		A26D65992BB29F3D00981EC8 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A26D654A2BB29F3D00981EC8 /* popup.css */; };
+		A26D659A2BB29F3D00981EC8 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A26D654A2BB29F3D00981EC8 /* popup.css */; };
+		A26D659B2BB29F3D00981EC8 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A26D654B2BB29F3D00981EC8 /* popup.js */; };
+		A26D659C2BB29F3D00981EC8 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A26D654B2BB29F3D00981EC8 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A26D65702BB29F3D00981EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A26D65342BB29F3C00981EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26D656D2BB29F3D00981EC8;
+			remoteInfo = "sweettooth Extension (iOS)";
+		};
+		A26D657A2BB29F3D00981EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A26D65342BB29F3C00981EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26D65772BB29F3D00981EC8;
+			remoteInfo = "sweettooth Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A26D65A22BB29F3D00981EC8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A26D656F2BB29F3D00981EC8 /* sweettooth Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D65A92BB29F3D00981EC8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A26D65792BB29F3D00981EC8 /* sweettooth Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A26D653B2BB29F3C00981EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		A26D653C2BB29F3C00981EC8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A26D653D2BB29F3C00981EC8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		A26D653E2BB29F3C00981EC8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		A26D653F2BB29F3C00981EC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A26D65402BB29F3D00981EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A26D65422BB29F3D00981EC8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		A26D65442BB29F3D00981EC8 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		A26D65452BB29F3D00981EC8 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		A26D65462BB29F3D00981EC8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		A26D65472BB29F3D00981EC8 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		A26D65482BB29F3D00981EC8 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		A26D65492BB29F3D00981EC8 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		A26D654A2BB29F3D00981EC8 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		A26D654B2BB29F3D00981EC8 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		A26D65502BB29F3D00981EC8 /* sweettooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sweettooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26D65532BB29F3D00981EC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A26D65552BB29F3D00981EC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A26D65582BB29F3D00981EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A26D655B2BB29F3D00981EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A26D655D2BB29F3D00981EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26D65622BB29F3D00981EC8 /* sweettooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sweettooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26D65642BB29F3D00981EC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A26D65672BB29F3D00981EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A26D65692BB29F3D00981EC8 /* sweettooth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sweettooth.entitlements; sourceTree = "<group>"; };
+		A26D656E2BB29F3D00981EC8 /* sweettooth Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "sweettooth Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26D65732BB29F3D00981EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26D65782BB29F3D00981EC8 /* sweettooth Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "sweettooth Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26D657D2BB29F3D00981EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26D657E2BB29F3D00981EC8 /* sweettooth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sweettooth.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26D654D2BB29F3D00981EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D655F2BB29F3D00981EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D656B2BB29F3D00981EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D65752BB29F3D00981EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A26D65332BB29F3C00981EC8 = {
+			isa = PBXGroup;
+			children = (
+				A26D65382BB29F3C00981EC8 /* Shared (App) */,
+				A26D65412BB29F3D00981EC8 /* Shared (Extension) */,
+				A26D65522BB29F3D00981EC8 /* iOS (App) */,
+				A26D65632BB29F3D00981EC8 /* macOS (App) */,
+				A26D65722BB29F3D00981EC8 /* iOS (Extension) */,
+				A26D657C2BB29F3D00981EC8 /* macOS (Extension) */,
+				A26D65512BB29F3D00981EC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A26D65382BB29F3C00981EC8 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				A26D653F2BB29F3C00981EC8 /* ViewController.swift */,
+				A26D65402BB29F3D00981EC8 /* Assets.xcassets */,
+				A26D65392BB29F3C00981EC8 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		A26D65392BB29F3C00981EC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A26D653A2BB29F3C00981EC8 /* Main.html */,
+				A26D653C2BB29F3C00981EC8 /* Icon.png */,
+				A26D653D2BB29F3C00981EC8 /* Style.css */,
+				A26D653E2BB29F3C00981EC8 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A26D65412BB29F3D00981EC8 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				A26D65422BB29F3D00981EC8 /* SafariWebExtensionHandler.swift */,
+				A26D65432BB29F3D00981EC8 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		A26D65432BB29F3D00981EC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A26D65442BB29F3D00981EC8 /* _locales */,
+				A26D65452BB29F3D00981EC8 /* images */,
+				A26D65462BB29F3D00981EC8 /* manifest.json */,
+				A26D65472BB29F3D00981EC8 /* background.js */,
+				A26D65482BB29F3D00981EC8 /* content.js */,
+				A26D65492BB29F3D00981EC8 /* popup.html */,
+				A26D654A2BB29F3D00981EC8 /* popup.css */,
+				A26D654B2BB29F3D00981EC8 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A26D65512BB29F3D00981EC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26D65502BB29F3D00981EC8 /* sweettooth.app */,
+				A26D65622BB29F3D00981EC8 /* sweettooth.app */,
+				A26D656E2BB29F3D00981EC8 /* sweettooth Extension.appex */,
+				A26D65782BB29F3D00981EC8 /* sweettooth Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26D65522BB29F3D00981EC8 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				A26D65532BB29F3D00981EC8 /* AppDelegate.swift */,
+				A26D65552BB29F3D00981EC8 /* SceneDelegate.swift */,
+				A26D65572BB29F3D00981EC8 /* LaunchScreen.storyboard */,
+				A26D655A2BB29F3D00981EC8 /* Main.storyboard */,
+				A26D655D2BB29F3D00981EC8 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		A26D65632BB29F3D00981EC8 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				A26D65642BB29F3D00981EC8 /* AppDelegate.swift */,
+				A26D65662BB29F3D00981EC8 /* Main.storyboard */,
+				A26D65692BB29F3D00981EC8 /* sweettooth.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		A26D65722BB29F3D00981EC8 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				A26D65732BB29F3D00981EC8 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		A26D657C2BB29F3D00981EC8 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				A26D657D2BB29F3D00981EC8 /* Info.plist */,
+				A26D657E2BB29F3D00981EC8 /* sweettooth.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A26D654F2BB29F3D00981EC8 /* sweettooth (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26D65A32BB29F3D00981EC8 /* Build configuration list for PBXNativeTarget "sweettooth (iOS)" */;
+			buildPhases = (
+				A26D654C2BB29F3D00981EC8 /* Sources */,
+				A26D654D2BB29F3D00981EC8 /* Frameworks */,
+				A26D654E2BB29F3D00981EC8 /* Resources */,
+				A26D65A22BB29F3D00981EC8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26D65712BB29F3D00981EC8 /* PBXTargetDependency */,
+			);
+			name = "sweettooth (iOS)";
+			productName = "sweettooth (iOS)";
+			productReference = A26D65502BB29F3D00981EC8 /* sweettooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A26D65612BB29F3D00981EC8 /* sweettooth (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26D65AA2BB29F3D00981EC8 /* Build configuration list for PBXNativeTarget "sweettooth (macOS)" */;
+			buildPhases = (
+				A26D655E2BB29F3D00981EC8 /* Sources */,
+				A26D655F2BB29F3D00981EC8 /* Frameworks */,
+				A26D65602BB29F3D00981EC8 /* Resources */,
+				A26D65A92BB29F3D00981EC8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26D657B2BB29F3D00981EC8 /* PBXTargetDependency */,
+			);
+			name = "sweettooth (macOS)";
+			productName = "sweettooth (macOS)";
+			productReference = A26D65622BB29F3D00981EC8 /* sweettooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A26D656D2BB29F3D00981EC8 /* sweettooth Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26D659F2BB29F3D00981EC8 /* Build configuration list for PBXNativeTarget "sweettooth Extension (iOS)" */;
+			buildPhases = (
+				A26D656A2BB29F3D00981EC8 /* Sources */,
+				A26D656B2BB29F3D00981EC8 /* Frameworks */,
+				A26D656C2BB29F3D00981EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sweettooth Extension (iOS)";
+			productName = "sweettooth Extension (iOS)";
+			productReference = A26D656E2BB29F3D00981EC8 /* sweettooth Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A26D65772BB29F3D00981EC8 /* sweettooth Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26D65A62BB29F3D00981EC8 /* Build configuration list for PBXNativeTarget "sweettooth Extension (macOS)" */;
+			buildPhases = (
+				A26D65742BB29F3D00981EC8 /* Sources */,
+				A26D65752BB29F3D00981EC8 /* Frameworks */,
+				A26D65762BB29F3D00981EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sweettooth Extension (macOS)";
+			productName = "sweettooth Extension (macOS)";
+			productReference = A26D65782BB29F3D00981EC8 /* sweettooth Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A26D65342BB29F3C00981EC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A26D654F2BB29F3D00981EC8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A26D65612BB29F3D00981EC8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A26D656D2BB29F3D00981EC8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A26D65772BB29F3D00981EC8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A26D65372BB29F3C00981EC8 /* Build configuration list for PBXProject "sweettooth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A26D65332BB29F3C00981EC8;
+			productRefGroup = A26D65512BB29F3D00981EC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A26D654F2BB29F3D00981EC8 /* sweettooth (iOS) */,
+				A26D65612BB29F3D00981EC8 /* sweettooth (macOS) */,
+				A26D656D2BB29F3D00981EC8 /* sweettooth Extension (iOS) */,
+				A26D65772BB29F3D00981EC8 /* sweettooth Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A26D654E2BB29F3D00981EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D65812BB29F3D00981EC8 /* Icon.png in Resources */,
+				A26D65592BB29F3D00981EC8 /* LaunchScreen.storyboard in Resources */,
+				A26D657F2BB29F3D00981EC8 /* Main.html in Resources */,
+				A26D65852BB29F3D00981EC8 /* Script.js in Resources */,
+				A26D65892BB29F3D00981EC8 /* Assets.xcassets in Resources */,
+				A26D655C2BB29F3D00981EC8 /* Main.storyboard in Resources */,
+				A26D65832BB29F3D00981EC8 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D65602BB29F3D00981EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D65822BB29F3D00981EC8 /* Icon.png in Resources */,
+				A26D65842BB29F3D00981EC8 /* Style.css in Resources */,
+				A26D65682BB29F3D00981EC8 /* Main.storyboard in Resources */,
+				A26D65862BB29F3D00981EC8 /* Script.js in Resources */,
+				A26D658A2BB29F3D00981EC8 /* Assets.xcassets in Resources */,
+				A26D65802BB29F3D00981EC8 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D656C2BB29F3D00981EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D65932BB29F3D00981EC8 /* background.js in Resources */,
+				A26D65992BB29F3D00981EC8 /* popup.css in Resources */,
+				A26D65972BB29F3D00981EC8 /* popup.html in Resources */,
+				A26D658F2BB29F3D00981EC8 /* images in Resources */,
+				A26D65912BB29F3D00981EC8 /* manifest.json in Resources */,
+				A26D658D2BB29F3D00981EC8 /* _locales in Resources */,
+				A26D65952BB29F3D00981EC8 /* content.js in Resources */,
+				A26D659B2BB29F3D00981EC8 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D65762BB29F3D00981EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D65942BB29F3D00981EC8 /* background.js in Resources */,
+				A26D659A2BB29F3D00981EC8 /* popup.css in Resources */,
+				A26D65982BB29F3D00981EC8 /* popup.html in Resources */,
+				A26D65902BB29F3D00981EC8 /* images in Resources */,
+				A26D65922BB29F3D00981EC8 /* manifest.json in Resources */,
+				A26D658E2BB29F3D00981EC8 /* _locales in Resources */,
+				A26D65962BB29F3D00981EC8 /* content.js in Resources */,
+				A26D659C2BB29F3D00981EC8 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26D654C2BB29F3D00981EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D65872BB29F3D00981EC8 /* ViewController.swift in Sources */,
+				A26D65542BB29F3D00981EC8 /* AppDelegate.swift in Sources */,
+				A26D65562BB29F3D00981EC8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D655E2BB29F3D00981EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D65882BB29F3D00981EC8 /* ViewController.swift in Sources */,
+				A26D65652BB29F3D00981EC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D656A2BB29F3D00981EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D658B2BB29F3D00981EC8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26D65742BB29F3D00981EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D658C2BB29F3D00981EC8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A26D65712BB29F3D00981EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26D656D2BB29F3D00981EC8 /* sweettooth Extension (iOS) */;
+			targetProxy = A26D65702BB29F3D00981EC8 /* PBXContainerItemProxy */;
+		};
+		A26D657B2BB29F3D00981EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26D65772BB29F3D00981EC8 /* sweettooth Extension (macOS) */;
+			targetProxy = A26D657A2BB29F3D00981EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A26D653A2BB29F3C00981EC8 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26D653B2BB29F3C00981EC8 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		A26D65572BB29F3D00981EC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26D65582BB29F3D00981EC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A26D655A2BB29F3D00981EC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26D655B2BB29F3D00981EC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A26D65662BB29F3D00981EC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26D65672BB29F3D00981EC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A26D659D2BB29F3D00981EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A26D659E2BB29F3D00981EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A26D65A02BB29F3D00981EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "sweettooth Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dirtybird.sweettooth.Extension;
+				PRODUCT_NAME = "sweettooth Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A26D65A12BB29F3D00981EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "sweettooth Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dirtybird.sweettooth.Extension;
+				PRODUCT_NAME = "sweettooth Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A26D65A42BB29F3D00981EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = sweettooth;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dirtybird.sweettooth;
+				PRODUCT_NAME = sweettooth;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A26D65A52BB29F3D00981EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = sweettooth;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dirtybird.sweettooth;
+				PRODUCT_NAME = sweettooth;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A26D65A72BB29F3D00981EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/sweettooth.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "sweettooth Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dirtybird.sweettooth.Extension;
+				PRODUCT_NAME = "sweettooth Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A26D65A82BB29F3D00981EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/sweettooth.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "sweettooth Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dirtybird.sweettooth.Extension;
+				PRODUCT_NAME = "sweettooth Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A26D65AB2BB29F3D00981EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/sweettooth.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = sweettooth;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dirtybird.sweettooth;
+				PRODUCT_NAME = sweettooth;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A26D65AC2BB29F3D00981EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/sweettooth.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = sweettooth;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dirtybird.sweettooth;
+				PRODUCT_NAME = sweettooth;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26D65372BB29F3C00981EC8 /* Build configuration list for PBXProject "sweettooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26D659D2BB29F3D00981EC8 /* Debug */,
+				A26D659E2BB29F3D00981EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26D659F2BB29F3D00981EC8 /* Build configuration list for PBXNativeTarget "sweettooth Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26D65A02BB29F3D00981EC8 /* Debug */,
+				A26D65A12BB29F3D00981EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26D65A32BB29F3D00981EC8 /* Build configuration list for PBXNativeTarget "sweettooth (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26D65A42BB29F3D00981EC8 /* Debug */,
+				A26D65A52BB29F3D00981EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26D65A62BB29F3D00981EC8 /* Build configuration list for PBXNativeTarget "sweettooth Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26D65A72BB29F3D00981EC8 /* Debug */,
+				A26D65A82BB29F3D00981EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26D65AA2BB29F3D00981EC8 /* Build configuration list for PBXNativeTarget "sweettooth (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26D65AB2BB29F3D00981EC8 /* Debug */,
+				A26D65AC2BB29F3D00981EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A26D65342BB29F3C00981EC8 /* Project object */;
+}
